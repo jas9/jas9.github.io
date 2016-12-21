@@ -1,6 +1,6 @@
 html{ font-size:100% } 
 body{font-family: 'Lato';font-size:1rem;letter-spacing: .05rem}
-h1{font-family: 'Merriweather Sans'}
+h1{font-family: 'Merriweather Sans';letter-spacing: .3rem}
 .absoluteCenter {
   height:50%;
   margin: auto;
@@ -8,4 +8,46 @@ h1{font-family: 'Merriweather Sans'}
   top: 0; left: 0; bottom: 0; right: 0;
   text-align: center;
   width:50%;
+}
+/* highlight */
+.highlight {
+    display: inline-block;
+    margin: 0 -3px;
+    overflow: hidden;
+    padding: 0 3px;
+    position: relative;
+    vertical-align: middle;
+}
+.highlight-text::before {
+    content: attr(data-text);
+    display: inline-block;
+    line-height: 1.3;
+    padding: 0 3px;
+    vertical-align: middle;
+}
+.highlight-text {
+    animation-delay: 1600ms;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-name: worldHighlight;
+    background: #ff5500 none repeat scroll 0 0;
+    border-radius: 16px;
+    color: #fff;
+    left: 0;
+    line-height: 1;
+    overflow: hidden;
+    position: absolute;
+    text-align: left;
+    top: 0;
+    white-space: nowrap;
+    width: 0;
+}
+@keyframes worldHighlight {
+0% {
+    width: 0;
+}
+100% {
+    width: 110px;
+}
 }
