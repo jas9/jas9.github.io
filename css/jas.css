@@ -1,6 +1,6 @@
 html{ font-size:100% } 
 body{font-family: 'Lato';font-size:1rem;letter-spacing: .05rem}
-h1{font-family: 'Merriweather Sans';letter-spacing: .3rem}
+h1{font-family: 'Merriweather Sans';font-size:1.6rem;letter-spacing: .3rem}
 .absoluteCenter {
   height:50%;
   margin: auto;
@@ -12,9 +12,9 @@ h1{font-family: 'Merriweather Sans';letter-spacing: .3rem}
 /* highlight */
 .highlight {
     display: inline-block;
-    margin: 0 -3px;
+    margin: 0;
     overflow: hidden;
-    padding: 0 3px;
+    padding: 0 5px;
     position: relative;
     vertical-align: middle;
 }
@@ -22,7 +22,7 @@ h1{font-family: 'Merriweather Sans';letter-spacing: .3rem}
     content: attr(data-text);
     display: inline-block;
     line-height: 1.3;
-    padding: 0 3px;
+    padding: 0 5px;
     vertical-align: middle;
 }
 .highlight-text {
@@ -42,12 +42,13 @@ h1{font-family: 'Merriweather Sans';letter-spacing: .3rem}
     top: 0;
     white-space: nowrap;
     width: 0;
+    z-index: 999;
 }
 @keyframes worldHighlight {
 0% {
     width: 0;
 }
 100% {
-    width: 110px;
+    width: 105px;
 }
 }
