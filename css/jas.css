@@ -1,6 +1,6 @@
 html{ font-size:100% } 
 body{font-family: 'Lato';font-size:1rem;letter-spacing: .05rem}
-h1{font-family: 'Merriweather Sans';font-size:1.6rem;letter-spacing: .3rem}
+h1{font-family: 'Merriweather Sans';font-size:1.6rem;font-weight:normal;letter-spacing: .3rem}
 .absoluteCenter {
   height:50%;
   margin: auto;
@@ -49,6 +49,6 @@ h1{font-family: 'Merriweather Sans';font-size:1.6rem;letter-spacing: .3rem}
     width: 0;
 }
 100% {
-    width: 105px;
+    width: 100px;
 }
 }
