@@ -1,5 +1,5 @@
 html{ font-size:100% } 
-body{font-family: 'Lato';font-size:1rem;letter-spacing: .05rem}
+body{background:url(/img/favicon_o10.svg) #edf2fc 50% 5% no-repeat;background-size: 50%;font-family: 'Lato';font-size:1rem;letter-spacing: .05rem}
 h1{font-family: 'Merriweather Sans';font-size:1.6rem;font-weight:normal;letter-spacing: .3rem}
 .absoluteCenter {
   height:50%;
